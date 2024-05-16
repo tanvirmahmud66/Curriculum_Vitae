@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.container{
+    width: 1000px;
+    min-height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.heading{
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: .8rem;
+}
+
+/* ==================================left side */
+.left{
+    width: 30%;
+    background-color: rgb(191, 214, 200);
+}
+
+/* personal-info */
+.personal_info{
+    background-color: rgb(6, 66, 45);
+    color: white;
+    padding: 1.3rem;
+}
+
+.personal_info .avatar{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.personal_info .avatar img{
+    width: 100%;
+}
+
+.info_heading{
+    margin-bottom: .8rem;
+}
+.info_heading h2{
+    font-weight: 400;
+}
+.info_heading h4{
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.info_content .content_item{
+    margin-bottom: .6rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: .8rem;
+    font-weight: 200;
+}
+.info_content a{
+    color: white;
+    text-decoration: underline;
+}
+.mb{
+    margin-bottom: .6rem;
+}
+
+
+/* relevent skills */
+.relevent_skill{
+    padding: .5rem 1.3rem;
+}
+.relevent_skill .rel_skill_content{
+    margin-bottom: .5rem;
+}
+.rel_skill_content h3{
+    font-size: 1rem;
+}
+.rel_skill_content h5{
+    font-weight: 500;
+}
+
+
+/* References */
+.references{
+    padding: .5rem 1.3rem;
+}
+.references .ref_content{
+    margin-bottom: .8rem;
+}
+.ref_content h4{
+    font-size: 1rem;
+    font-weight:600;
+}
+.ref_content p{
+    font-size: .9rem;
+
+}
+
+
+
+/* ======================================== Right side */
+.right{
+    width: 70%;
+}
+
+
+/* objective */
+.objective{
+    background-color: rgb(191, 214, 200);
+    padding: 1rem 1.3rem;
+    text-align: justify;
+}
+
+/* project */
+.project{
+    padding: .8rem 1.3rem;
+}
+.project .project_item{
+    margin-bottom: .8rem;
+}
+.project .project_item p{
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .3rem;
+}
+
+
+
+/* education */
+.education{
+    padding: .8rem 1.3rem;
+}
+.flex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.education .each_item{
+    margin-bottom: .7rem;
+}
+.each_item p{
+    font-size: .9rem;
+}
+
+
+/* skills */
+.skills{
+    padding: .8rem 1.3rem;
+}
+.flex{
+    display: flex;
+}
+.skill_left{
+    width: 50%;
+}
+.skill_right{
+    width: 50%;
+}
+.skills .skill_item{
+    margin-bottom: .7rem;
+}
+.mb-sm{
+    margin-bottom: .4rem;
+}
+.skills .block{
+    width: 20px;
+    height: 10px;
+    border: 1px solid green;
+    margin-right: 5px;
+}
+.block_filled{
+    background-color: green;
+}
+
+
+/* volunteering */
+.volunteering{
+    padding: .8rem 1.3rem;
+}
+.volunteering p{
+    font-size: .9rem;
+    margin: .4rem 0;
+}
